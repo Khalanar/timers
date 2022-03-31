@@ -1,0 +1,123 @@
+*{
+    font-family: 'Roboto', sans serif;
+}
+
+:root{
+    --strong-white: #ffffffb5;
+    --mid-white: #ffffff99;
+    --soft-white: #ffffff4d;
+    --dark-green: #004d40;
+    --light-green: #009688;
+}
+
+body, #clock{
+    height:100vh;
+}
+
+.normal{
+    background-color: white;
+}
+
+
+#clock-container{
+    height:100vh;
+    width: 190px;
+}
+
+#hh, #mm{
+    font-size: 2em;
+    color: #ffffffb5;
+}
+
+#hh{
+    border-left: 1px solid var(--soft-white);
+    padding-left: 5px;
+}
+    
+#ss{
+    font-size: 1.5em;
+    color: #ffffff4d;
+}
+
+
+.event-triggered{
+    background-color: red;
+}
+
+
+.normal{
+    background-color: #004d40;
+}
+
+
+#message{
+    margin-bottom:7px;
+}
+
+.top-padded{
+    padding-top:7px;
+}
+
+#inputHH, #inputMM{
+    width: 37px;
+}
+
+.timer-container{
+    height: 12px;
+    max-width: 180px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    overflow: hidden;
+    margin:5px 0px;
+}
+
+.timer{
+    display: block;
+    height: 100%;
+    background-color: #009688;
+}
+
+.white-25o{
+    color: var(--mid-white);
+}
+
+.white-h{
+    color: var(--strong-white);
+}
+
+.center{
+    text-align: center;
+}
+
+.material-icons{
+    color: var(--dark-green);
+    font-size: 1em !important;
+    display: block;
+    
+}
+
+#timers-container{
+    float:left;
+    display: inline-block;
+}
+
+#clock{
+    margin: 0px;
+    display: grid;
+  
+}
+
+.no-right-margin{
+    padding-top: 3px;
+    padding-right:0px;
+    display:block;
+    float: right;
+}
+
+.no-left-padding{
+    padding:0px;
+}
+
+.w25{
+    width: 30px !important;
+}
